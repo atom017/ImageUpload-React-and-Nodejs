@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .img-container{
@@ -20,9 +21,20 @@
 
 .img-container > img{
     width:100%;
-    height: 100%;
+    height: 80%;
+    object-fit: cover;
 }
 
-input{
-    margin:10px 0;
+.imgLabel{
+    font-size: 13px;
+    color:#666;
+}
+
+.inputLabel{
+    margin:15px 0;
+    padding:3px 7px;
+    border:1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    
 }
